@@ -1,0 +1,807 @@
+---
+title: "YOUTUBE İÇERİK ANALİZİ"
+author: "Zehra İrem ÇAKMAK"
+date: "19.05.2024"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    number_sections: yes
+    latex_engine: xelatex
+---
+# **1.GİRİŞ**
+
+Bu raporda Youtube'dan çekilen son yılda en çok izlenmiş videoların altına gelen yorumlar kullanılarak farklı içerik türlerine gelen tepkilerin frekans analizleri, duygu analizleri ve emoji analizleri yapılmıştır. Toplamda  17 farklı videodan veri çekilmiştir. Analiz R Studio kullanılarak yapılmıştır. Raporlamada ise R Markdown kullanılmıştır. Toplamda 455.926 satır veri ile analiz yapılmıştır.
+
+# **2. Analiz**
+
+## ***2.1. Eğitim Videosu***
+<a href="https://www.youtube.com/embed/P6FORpg0KVo" target=_blank>
+<h4>
+Egitim Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.1.1. Eğitim Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="egitim.png" alt="assad">
+
+Tablodaki kelimeler;
+
+language = dil,
+
+learn = öğrenmek,
+
+streak = seriye bağlamak,
+
+education = eğitim,
+
+english = ingilizce,
+
+addictive = bağımlılık yapıcı,
+
+social = sosyal,
+
+media = medya,
+
+amazing = inanılmaz,
+
+spanish = ispanyolca, şeklindedir. Bu kelimelere bakarak insanların uygulamayı bağımlılık yapıcı bulduğunu ve en çok öğrenilmek istenilen dillerin İngilizce ve İspanyolca olduğunu görebiliriz.
+
+### *2.1.2. Eğitim Videosu Duygu Analizi*
+
+Eğitim Videosunun duygu analizine baktığımızda ise pozitiflik, güven ve eğlence duygularının ön planda olduğunu görebiliriz. Yapılan konuşmada konuşmacının enerjisi ve tavrı, uygulamanın kullanan kişiler tarafından beğenilmesi bu duyguların çıkmasına sebep olmuş olabilir.
+
+<img src="egitimduygu.png" alt="assad">
+
+### *2.1.3. Eğitim Videosu Emoji Analizi*
+
+<iframe src = "Egitim Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.2. Ask Me Anything Videosu***
+<a href="https://www.youtube.com/watch?v=BK0fNRkVd1Y" target=_blank>
+<h4>
+Ask Me Anything Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.2.1. Ask Me Anything Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="askmeanything.png" alt="assad">
+
+Tablodaki kelimeler;
+
+ronaldo,
+
+messi,
+
+football = futbol,
+
+foreverzone,
+
+activity = aktivite,
+
+train =  antrenman,
+
+opportunity = fırsat,
+
+chance = şans,
+
+assistance = destek,
+
+happy = mutlu, şeklindedir. Bu kelimelere bakarak insanların genellikle futbolla alakalı yorum yaptığını görebiliriz.
+
+### *2.2.2. Ask Me Anything Videosu Duygu Analizi*
+
+Ask Me Anything Videosunun duygu analizine baktığımızda ise pozitiflik, güven, antipati ve eğlence duygularının ön planda olduğunu görebiliriz. Kişilerin Ronaldoya karşı sevgileri onu idol olarak gördükleri için güvenmeleri ve roportajdaki eğlenceli tavrı sayesinde bu duygular çıkmış olabilir.
+
+<img src="askmeanythingduygu.png" alt="assad">
+
+### *2.2.3. Ask Me Anything Videosu Emoji Analizi*
+
+<iframe src = "Ask Me Anything Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.3. Challenge Videosu***
+<a href="https://www.youtube.com/watch?v=yhB3BgJyGl8" target=_blank>
+<h4>
+Challenge Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.3.1. Challenge Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="challenge.png" alt="assad">
+
+Tablodaki kelimeler;
+
+bryan,
+
+beast,
+
+jimmy,
+
+challenge = meydan okuma,
+
+lazarbeam,
+
+crazy =  çılgın,
+
+amazing = inanılmaz,
+
+water = su,
+
+content = içerik,
+
+hours = saat, şeklindedir. Bu kelimelere bakarak insanların bu içeriği inanılmaz ve çılgınca bulduğunu görebiliriz. görebiliriz..
+
+### *2.3.2. Challenge Videosu Duygu Analizi*
+
+Challenge Videosunun duygu analizine baktığımızda ise negatiflik, korku ve kızgınlık duygularının ön planda olduğunu görebiliriz. Video genel olarak sevilmesine rağmen duygu durumununun bu şekilde çıkmasının sebebi insanların içeriği daha önceki içeriklere oranla daha kolay bulması bu sebeple tepki göstermeleri olabilir.
+
+<img src="challengeduygu.png" alt="assad">
+
+### *2.3.3. Challenge Videosu Emoji Analizi*
+
+<iframe src = "Challenge Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.4. Kutu Açılımı Videosu***
+<a href="https://www.youtube.com/watch?v=bShEDrieGDU" target=_blank>
+<h4>
+Kutu Açılımı Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.4.1. Kutu Açılımı Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="kutuacılımı.png" alt="assad">
+
+Tablodaki kelimeler;
+
+dancer = dansçı,
+
+remember = hatırlamak,
+
+loved = sevilen,
+
+kinder = nazik,
+
+sister =  kız kardeş,
+
+congratulations =  tebrikler,
+
+favorite = favori,
+
+altoids,
+
+childhood = çocukluk,
+
+discontinued = durduruldu, şeklindedir. Bu kelimelere bakarak insanların genellikle futbolla alakalı yorum yaptığını görebiliriz.
+
+### *2.4.2. Kutu Açılımı Videosu Duygu Analizi*
+
+Kutu Açılımı Videosunun duygu analizine baktığımızda ise pozitiflik, güven ve eğlence duygularının ön planda olduğunu görebiliriz. Eskilerin merak duyulan populer oyuncaklarıyla alakalı bir içerik olduğundan bu duygular ön plana çıkmış olabilir.Antipati duygusunun çıkma sebebi ise insanların geçmişte onlara bu oyuncakları almadıkları için ailelerine gösterdikleri tepkiden kaynaklı olabilir.
+
+<img src="kutuacılımıduygu.png" alt="assad">
+
+### *2.4.3. Kutu Açılımı Videosu Emoji Analizi*
+
+<iframe src = "Kutu Acma Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### **2.5. Reaction Videosu**
+<a href="https://youtu.be/3D2NvacqlV0?si=Pi5VP4jKspxfPcNL" target=_blank>
+<h4>
+Reaction Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.5.1. Reaction Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="reaction.png" alt="assad">
+
+Tablodaki kelimeler;
+
+music = müzik,
+
+listen = dinlemek,
+
+remember = hatırlamak,
+
+forget = unutmak,
+
+disney,
+
+timberlake,
+
+yellow = sarı,
+
+lifehouse,
+
+millennial = bin yıllık,
+
+jesse, şeklindedir. Bu kelimelere bakarak insanların genellikle eski şarkıları unuttuklarını ve bu videoyu izleyerek hatırladıklarını görebiliriz.
+
+### *2.5.2. Reaction Videosu Duygu Analizi*
+
+Reaction Videosunun duygu analizine baktığımızda ise insanların sevdikleri ve unuttukları şarkıları tekrar duyunca mutlu olduklarını bu yüzden pozitiflik duygusunun çıktığını görüyoruz. Fakat bazı insanlar şarkıları veya sanatçıları bilmediklerinden ötürü ya da sanatçıya karşı kötü anıları olduğundan ötürü negatif yorumlar yapmışlar bu sebeple negatiflik oranıda bir o kadar yüksek çıkmış. Bunlara bağlı olarakta üzüntü ve eğlence duygularınında yüksek oldğunu söyleyebiliriz.
+
+<img src="reactionduygu.png" alt="assad">
+
+### *2.5.3. Reaction Videosu Emoji Analizi*
+
+<iframe src = "Reaction Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.6. Soru-Cevap Videosu***
+
+<a href="https://www.youtube.com/watch?v=gBP1nP4NtCk" target=_blank>
+<h4>
+Soru-Cevap Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.6.1. Soru-Cevap Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="sorucevap.png" alt="assad">
+
+Tablodaki kelimeler;
+
+happy = mutlu,
+
+english = ingilizce,
+
+bithday = doğum günü,
+
+house = ev,
+
+สุขสันต = mutlu,
+
+understand = anlamak,
+
+beautiful = güzel,
+
+lalisa,
+
+korean =  koreli,
+
+blackpink, şeklindedir. Bu kelimelere bakarak insanların koreli sanatçı hakkındaki düşüncelerini görebiliriz.
+
+### *2.6.2. Soru-Cevap Videosu Duygu Analizi*
+
+Soru-Cevap Videosunun duygu analizine baktığımızda ise genellikle fanlarının yaptığı güzel yorumlar sayesinde pozitiflik, güven ve eğlence duygularının çıktığını görüyoruz. Yorum yapan kişiler Lisa'nın başarılı olmasına çok sevindikleri onunla gurur duydukları tarzında yorumlar yapmışlar. Fakat videoda farklı dilde altyazı olmamasından yakınan ve anti-fanlarından gelen yorumlar yüzündende antipati duygusunun çıktığını görüyoruz.
+
+<img src="sorucevapduygu.png" alt="assad">
+
+### *2.6.3. Soru-Cevap Videosu Emoji Analizi*
+
+<iframe src = "Soru-Cevap Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.7. Vlog Videosu***
+
+<a href="https://youtu.be/nD1NPvltDdY?si=6JnlV0I0fxEkf858" target=_blank>
+<h4>
+Vlog Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.7.1. Vlog Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="vlog.png" alt="assad">
+
+Tablodaki kelimeler;
+
+island = ada,
+
+amazing = inanılmaz,
+
+tribe =  kabile,
+
+beautiful = güzel,
+
+happy = mutlu,
+
+black = siyah,
+
+white = beyaz,
+
+vanuatu,
+
+brodie =  erkek kardeş,
+
+sentinel = nöbetçi, şeklindedir. Bu kelimelere bakarak insanların kabile hayatı hakkındaki düşüncelerini görebiliriz.
+
+### *2.7.2. Vlog Videosu Duygu Analizi*
+
+Vlog Videosunun duygu analizine baktığımızda ise kabile yaşamının çok beğenildiğini, eğlenceli bulunduğunu kabiledeki insanların nazik olmasından ötürü videoda pozitiflik, güven ve eğlence duygularının ön planda olduğunu görebiliriz.
+
+<img src="vlogduygu.png" alt="assad">
+
+### *2.7.3. Vlog Videosu Emoji Analizi*
+
+<iframe src = "Vlog Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.8. Sosyal Deney Videosu***
+<a href="https://www.youtube.com/watch?v=CoDm9wu3FGQ" target=_blank>
+<h4>
+Sosyal Deney Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.8.1. Sosyal Deney Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="sosyaldeney.png" alt="assad">
+
+Tablodaki kelimeler;
+
+bless = kutsamak,
+
+heart = kalp,
+
+woman =  kadın,
+
+brother = erkek kardeş,
+
+tears = gözyaşı,
+
+money = para,
+
+jesus = isa,
+
+allah,
+
+beautiful = güzel,
+
+crying = ağlamak, şeklindedir. Bu kelimelere bakarak bu içeriğin farklı dinlerden olan insanlara aynı şeyleri düşündürdüğünü görebiliriz.
+
+### *2.8.2. Sosyal Deney Videosu Duygu Analizi*
+
+Sosyal Deney Videosunun duygu analizine baktığımızda ise bir kişi videodaki kişiye yardım ettiği için insanlar bunun insanlık adına bir umut olduğunu ödülün doğru kişiye gittiğini yazmışlar ve bu sebeple pozitiflik, güven ve eğlence duyguları çıkmış. Fakat yardım etmeyen insanlara gelen yorumlar sebebiylede antipati duygusunun çıktığını görüyoruz.
+
+<img src="sosyaldeneyduygu.png" alt="assad">
+
+### *2.8.3. Sosyal Deney Videosu Emoji Analizi*
+
+<iframe src = "Sosyal Deney Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.9. Röportaj Videosu***
+<a href="https://www.youtube.com/watch?v=fOCWBhuDdDo" target=_blank>
+<h4>
+Röportaj Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.9.1. Röportaj Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="roportaj.png" alt="assad">
+
+Tablodaki kelimeler;
+
+putin,
+
+russia = rusya,
+
+interview = röportaj,
+
+ukraine = ukranya,
+
+history = tarih,
+
+country = ülke,
+
+biden,
+
+poland = polonya,
+
+american = amerikalı,
+
+truth = gerçek, şeklindedir. Bu kelimelere bakarak insanların genellikle gündem ve savaş hakkında yorum yaptıklarını görebiliriz.
+
+### *2.9.2. Röportaj Videosu Duygu Analizi*
+
+Röportaj Videosunun duygu analizine baktığımızda ise çevirmenin iyi olmasından, sunucunun tarafsız olmasından kaynaklı pozitiflik duygusu çıkarken savaş ve çatışmalardan kaynaklı negatiflik duygusunun çıktığını görüyoruz.Bu sebeplerden kaynaklı olarakta güven ve korku duygularınında ön planda olduğunu görebiliriz.
+
+<img src="roportajduygu.png" alt="assad">
+
+### *2.9.3. Röportaj Videosu Emoji Analizi*
+
+<iframe src = "Roportaj Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.10. Makyaj Videosu***
+<a href="https://www.youtube.com/watch?v=4cWyLPidWcA" target=_blank>
+<h4>
+Makyaj Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.10.1. Makyaj Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="makyaj.png" alt="assad">
+
+Tablodaki kelimeler;
+
+beautiful = güzel,
+
+pretty = tatlı,
+
+jihyo,
+
+vogue,
+
+white = beyaz,
+
+natural = doğal,
+
+gorgeous = muhteşem,
+
+color = renk,
+
+foundation = fondöten,
+
+tanned = bronzlaşmış, şeklindedir. Bu kelimelere bakarak insanların koreli sanatçı hakkındaki düşüncelerini görebiliriz.
+
+### *2.10.2. Makyaj Videosu Duygu Analizi*
+
+Makyaj Videosunun duygu analizine baktığımızda ise fanlarının yaptığı güzel yorumlar sayesinde pozitiflik, güven, eğlence duygularının çıktığını görüyoruz.Sanatçının kullandığı fondotenin ten renginden daha açık renkli olması, Kore'deki güzellik algısının bu şekilde olmasından dolayı yapılan yorumlar sayesinde ise antipati duygusunun çıktığını görebiliriz.
+
+<img src="makyajduygu.png" alt="assad">
+
+### *2.10.3. Makyaj Videosu Emoji Analizi*
+
+<iframe src = "Makyaj Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.11. ASMR Videosu***
+<a href="https://www.youtube.com/watch?v=lHZ2azw5LCc" target=_blank>
+<h4>
+ASMR  Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.11.1. ASMR Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="makyaj.png" alt="assad">
+
+Tablodaki kelimeler;
+
+asleep = uyuyakalmak,
+
+scratching = tırmalamak,
+
+sound = ses,
+
+dormir = yatakhane,
+
+muito = çok,
+
+amazing = inanılmaz,
+
+plastic = plastik,
+
+preview = ön izleme,
+
+tapping = tıklatma,
+
+massage = masaj, şeklindedir. Bu kelimelere bakarak bu içeriğin insanları rahatlattığını ve uykularını getirdiğini görebiliriz.
+
+### *2.11.2. ASMR  Videosu Duygu Analizi*
+
+ASMR  Videosunun duygu analizine baktığımızda ise bazı hastalıklara sahip kişilerin bu videoyla daha kolay uykuya daldıklarını söylemesi ve ders çalışan kişilerin odaklanmalarına yardımcı olduğuna dair attıkları yorumlar sayesinde pozitiflik, güven ve eğlence duyguları çıkmışken bazı insanların uzun olan bu videonun vakit kaybı olduğunu söylemesinden kaynaklı antipati duygusu ön plana çıkmıştır.
+
+<img src="asmrduygu.png" alt="assad">
+
+### *2.11.3. ASMR  Videosu Emoji Analizi*
+
+<iframe src = "ASMR Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.12. Mukbang Videosu***
+<a href="https://www.youtube.com/watch?v=DmUgQzu3Z4U" target=_blank>
+<h4>
+Mukbang  Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.12.1. Mukbang Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="mukbang.png" alt="assad">
+
+Tablodaki kelimeler;
+
+black = siyah,
+
+drink = içmek,
+
+eating = yemek,
+
+chicken = tavuk,
+
+challenge = meydan okuma,
+
+mouthwash = gargara,
+
+color = renk,
+
+listerine,
+
+funny = eğlenceli,
+
+couple = çift, şeklindedir. Bu kelimelere bakarak bu içeriği eğlenceli bulduklarını görebiliriz.
+
+### *2.12.2. Mukbang Videosu Duygu Analizi*
+
+Mukbang Videosunun duygu analizine baktığımızda bazı yiyeceklerin sağlığa zararlı olmasından ve agresif bir şekilde yedirilmesinden kaynaklı negatiflik, korku ve kızgınlık duyguları çıkmışken videodaki çiftin birbirlerine çok yakıştıklarını söyleyen yorumlar sayesinde pozitiflik duygusu ön plana çıkmıştır.
+
+<img src="mukbangduygu.png" alt="assad">
+
+### *2.12.3. Mukbang Videosu Emoji Analizi*
+
+<iframe src = "Mukbang Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.13. Egzersiz Videosu***
+<a href="https://www.youtube.com/watch?v=-KoxqHvCEAg" target=_blank>
+<h4>
+Egzersiz Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.13.1. Egzersiz Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="egzersiz.png" alt="assad">
+
+Tablodaki kelimeler;
+
+exercise = egzersiz,
+
+weight = ağırlık,
+
+workout = antrenman,
+
+update = güncelleme,
+
+waist = bel,
+
+belly = karın,
+
+times = kere,
+
+effective = etkili,
+
+remind = hatırlatmak,
+
+thighs = kalça, şeklindedir. Bu kelimelere bakarak insanların bu içeriği etkili bulduklarını görebiliriz.
+
+### *2.13.2. Egzersiz Videosu Duygu Analizi*
+
+Egzersiz Videosunun duygu analizine baktığımızda bazı kişiler programın eğlenceli olduğunu ve işe yaradığını söylemişken bazı kişiler programın kendisine ağır geldiğini, ağrılarının olduğunu söylemiş bu sebeple pozitiflik ve negatifliğin yanı sıra korku, eğlence, güven ve antipati duygularının ön planda olduğunu görüyoruz.
+
+<img src="egzersizduygu.png" alt="assad">
+
+### *2.13.3. Egzersiz Videosu Emoji Analizi*
+
+<iframe src = "Egzersiz Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.14. Yemek Videosu***
+<a href="https://www.youtube.com/watch?v=qnozeCkyzzw" target=_blank>
+<h4>
+Yemek Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.14.1. Yemek Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="yemek.png" alt="assad">
+
+Tablodaki kelimeler;
+
+super = süper,
+
+chicken = tavuk,
+
+delicious = lezzetli,
+
+pocket = torba,
+
+bless = kutsamak,
+
+amazing = inanılmaz,
+
+languange = dil,
+
+yummy = nefis,
+
+village = köy,
+
+hindi, şeklindedir. Bu kelimelere bakarak insanların bu içeriği beğendiklerini görebiliriz.
+
+### *2.14.2. Yemek Videosu Duygu Analizi*
+
+Yemek Videosunun duygu analizine baktığımızda insanların köyde yapılan bu yemek videosunu sevdiklerini izlerken eğlendiklerini bu sebeple pozitiflik, eğlence ve güven duygularının ön planda olduğunu görebiliriz.
+
+<img src="yemekduygu.png" alt="assad">
+
+### *2.14.3. Yemek Videosu Emoji Analizi*
+
+<iframe src = "Yemek Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.15. Moda Videosu***
+<a href="https://www.youtube.com/watch?v=pDsjAIrmSKM" target=_blank>
+<h4>
+Moda Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.15.1. Moda Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="moda.png" alt="assad">
+
+Tablodaki kelimeler;
+
+thích = sevmek,
+
+fashion = moda,
+
+amazing = inanılmaz,
+
+music = müzik,
+
+choir = koro,
+
+collection = koleksiyon,
+
+beautiful = güzel,
+
+louis,
+
+vuitton,
+
+clothes = kıyafet, şeklindedir. Bu kelimelere bakarak insanların defileyi ve müziklerini inanılmaz bulduklarını, sevdiklerini görebiliriz.
+
+### *2.15.2. Moda Videosu Duygu Analizi*
+
+Moda Videosunun duygu analizine baktığımızda ise tasarımların, modellerin, orkestranın birbiriyle uyumlu olduğunu, defilenin harika olduğunu söyleyen güzel yorumlar sayesınde pozitiflik, eğlence ve güven duygularının ön planda olduğunu görebiliriz.
+
+<img src="modaduygu.png" alt="assad">
+
+### *2.15.3. Moda Videosu Emoji Analizi*
+
+<iframe src = "Moda Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.16. Komplo Teorisi Videosu***
+<a href="https://www.youtube.com/watch?v=trU7R8si_iU" target=_blank>
+<h4>
+Komplo Teorisi Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.16.1. Komplo Teorisi Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="komploteorisi.png" alt="assad">
+
+Tablodaki kelimeler;
+
+girls = kızlar,
+
+desiree = arzu,
+
+podcast = dijital ses dosyası,
+
+awkward = garip,
+
+dates = randevu,
+
+loved = sevilen,
+
+waiting = beklemek,
+
+excited = heyecanlı,
+
+sweet = tatlı,
+
+rylands, şeklindedir. Bu kelimelere bakarak insanların bu içeriği sevdiklerini ve heyecanla beklediklerini görebiliriz.
+
+### *2.16.2. Komplo Teorisi Videosu Duygu Analizi*
+
+Komplo Teorisi Videosunun duygu analizine baktığımızda ise bir yorumcuya karşı olumlu ve destekleyici yorumlar yapılmışken diğer yorumculara karşı kötü yorumlar yapılmış bu sebeple pozitiflik ve negatiflik, eğlence ve antipati duygularının ön planda olduğunu görebiliriz.
+
+<img src="komploteorisiduygu.png" alt="assad">
+
+### *2.16.3. Komplo Teorisi Videosu Emoji Analizi*
+
+<iframe src = "Komplo Teorisi Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+### ***2.17. Oyun Videosu***
+<a href="https://www.youtube.com/watch?v=_GSc0ldz4TE" target=_blank>
+<h4>
+Oyun Videosu İçin Tıklayınız
+</h4>
+</a>
+
+### *2.16.1. Oyun Videosu Frekans Analizi*
+
+Aşağıdaki tabloda yapılan yorumlarda en çok tekrar eden 10 kelime bulunmaktadır.
+
+<img src="oyun.png" alt="assad">
+
+Tablodaki kelimeler;
+
+sapnap,
+
+minecraft,
+
+hostage =  rehin,
+
+filipino = filipinli,
+
+manhunt = insan avı,
+
+funny = eğlenceli,
+
+crown = taç,
+
+tagalog = tagalogca,
+
+title = ünvan,
+
+screaming = haykırmak, şeklindedir. Bu kelimelere bakarak insanların bu içeriği eğlenceli bulduklarını görebiliriz.
+
+### *2.16.2. Oyun Videosu Duygu Analizi*
+
+Oyun Videosunun duygu analizine baktığımızda ise iki oyuncuya karşı gelen iyi ve kötü yorumlar, oyundaki taktikler ve tuzaklar hakkında gelen yorumlar sayesinde pozitiflik ve negatifliğin yanı sıra korku ve kızgınlık duygularının ön planda olduğunu görebiliriz.
+
+<img src="oyunduygu.png" alt="assad">
+
+### *2.16.3. Oyun Videosu Emoji Analizi*
+
+<iframe src = "Oyun Videosu_emoji_wordcloud.html" width = "800" height = "400"></iframe>
+
+# **3.Pozitiflik Oranları Karşılaştırma**
+
+Aşağıda gördüğümüz tablodan yola çıkarak pozitiflik duygusu en yüksek olan videonun [Makyaj videosu]{.ul} olduğunu pozitiflik oranı en düşük olan videonun ise [Challenge videosu]{.ul} olduğunu görebiliriz.
+
+<img src="pozitiflik.png" alt="assad">
+
+# **4.Negatiflik Oranları Karşılaştırması**
+
+Aşağıdaki tablodan yola çıkarak negatiflik oranı en yüksek olan videonun [Challenge videosu]{.ul} olduğunu, negatiflik oranı en düşük olan videonun ise [Soru-Cevap videosu]{.ul} olduğunu görebiliriz.
+
+<img src="negatiflik.png" alt="assad">
+
+
+# **5.Kullanılan Kodlar**
+
+<a href="Youtube-Icerik-Analizi-Kodları.html">
+<h4>
+Kullanılan Kodları Görmek İçin Tıklayınız.
+</h4>
+</a>
+
